@@ -1,10 +1,44 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Coursera-test</title>
+  <title>My Project Site</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<h1>Coursera-test</h1>
-<p>coursera test repository</p>
+  <header>
+    <h1>My Project Site</h1>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+  <main>
+    <section id="hero">
+      <h2>Welcome to my project site!</h2>
+      <p>This is where I will share my work on various projects.</p>
+    </section>
+    <section id="projects">
+      <h3>Projects</h3>
+      <ul>
+        <li><a href="#">Project 1</a></li>
+        <li><a href="#">Project 2</a></li>
+        <li><a href="#">Project 3</a></li>
+      </ul>
+    </section>
+    <section id="contact">
+      <h3>Contact</h3>
+      <p>Feel free to contact me with any questions or feedback.</p>
+      <form action="/contact" method="post">
+        <input type="name" name="name" placeholder="Your name">
+        <input type="email" name="email" placeholder="Your email">
+        <textarea name="message" placeholder="Your message"></textarea>
+        <input type="submit" value="Send">
+      </form>
+    </section>
+  </main>
+  <footer>
+    <p>Copyright &copy; 2023 My Name</p>
+  </footer>
 </body>
 </html>
